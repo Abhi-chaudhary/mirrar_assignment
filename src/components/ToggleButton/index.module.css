@@ -1,0 +1,50 @@
+.toggleButton {
+    
+    margin-top:33px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  padding:0.7rem 1.7rem 0.7rem 1.7rem
+}
+
+.toggleButton.C {
+  background-color: #4CAF50;
+  background:linear-gradient(to bottom, #4CAF50, #013220);
+  color: white;
+}
+
+.toggleButton.F {
+  background:linear-gradient(to bottom, #ff7b0a, #fe3a7d);
+  color: white;
+}
+
+
+  @media (max-width: 900px) {
+
+    .toggleButton {
+    
+      margin-top:auto;
+      margin-left:5px;
+      background-color: #ddd;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      padding:10px
+    }
+    
+    .toggleButton.C {
+      background-color: #4CAF50;
+      background:linear-gradient(to bottom, #4CAF50, #013220);
+      color: white;
+    }
+    
+    .toggleButton.F {
+      background:linear-gradient(to bottom, #ff7b0a, #fe3a7d);
+      color: white;
+    }
+
+
+  }

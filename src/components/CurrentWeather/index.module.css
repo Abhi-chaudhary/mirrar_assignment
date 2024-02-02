@@ -1,0 +1,208 @@
+.container{
+    top:0;
+    height:74vh;
+    width:50vw;
+    padding:2rem;
+    margin:0;
+    
+    
+}
+
+.name{
+    color:white;
+    margin-top:-2rem;  
+    height:2vh;
+    font-size:4rem;
+}
+
+.tempImg{
+    color:white;
+    display:flex;
+    height:5vh;
+    font-size:3rem;
+    align-items:center;
+    margin-top:9rem
+}
+
+.icon{
+        
+    height:12rem;
+    width:12rem;
+   
+    margin-left:4rem
+    
+}
+
+
+
+.attributes{
+    width:50vw;
+    height:0px;
+    border:2px solid white;
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    border-radius:10px;
+    margin-top:4rem;
+   
+    gap:2rem;
+    margin-left:-1.5rem
+
+}
+
+.minTemp{
+    color:white;
+    margin-left:2rem;
+    margin-top:2rem;
+    width:15rem;
+    font-size:1.2rem
+}
+
+.maxTemp{
+    color:white;
+    margin-top:2rem;
+    top:29rem;
+    left:3rem;
+    width:15rem;
+    font-size:1.2rem
+}
+
+.humidity{
+    color:white;
+    
+    top:25rem;
+    left:17rem;
+    width:15rem;
+    font-size:1.2rem
+}
+
+.wind{
+    color:white;
+    margin-left:2rem;
+    top:29rem;
+    left:17rem;
+    width:21rem;
+    font-size:1.2rem
+}
+
+.desc{
+    color:white;
+    margin-left:2rem;
+    top:25rem;
+    left:29rem;
+    width:17rem;
+    font-size:1.2rem
+}
+
+
+@media  (max-width: 900px) {
+    .container{
+   
+        top:0;
+        height:74vh;
+        width:50vw;
+        padding:2rem;
+        margin:0;
+    
+    }
+    
+    .name{
+        color:white;
+        
+        height:2vh;
+        font-size:2rem;
+    }
+    
+    .tempImg{
+        color:white;
+        display:flex;
+        height:5vh;
+        font-size:1rem;
+        align-items:center;
+        margin-top:30px
+    }
+    
+    .icon{
+        
+        height:6rem;
+        width:6rem;
+       
+        margin-left:4rem
+        
+    }
+    
+    .break{
+        color:white;
+        
+        top:18rem;
+        left:2rem;
+        
+        
+    }
+    
+    .attributes{
+        width:85vw;
+        height:17vh;
+        border:2px solid white;
+        padding:1.3rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        border-radius:10px;
+        margin-top:1rem;
+        gap:0rem;
+        margin-left:-1.5rem
+    
+    }
+    
+    .minTemp{
+        color:white;
+        margin-top:0rem;
+        top:25rem;
+        left:3rem;
+        width:15rem;
+        font-size:1.2rem;
+        margin-left:0rem;
+    }
+    
+    .maxTemp{
+        color:white;
+        margin-top:0rem;
+        top:29rem;
+        left:3rem;
+        width:15rem;
+        font-size:1.2rem
+    }
+    
+    .humidity{
+        color:white;
+        
+        top:25rem;
+        left:17rem;
+        width:15rem;
+        font-size:1.2rem
+    }
+    
+    .wind{
+        color:white;
+        margin-left:0rem;
+        top:29rem;
+        left:17rem;
+        width:21rem;
+        font-size:1.2rem
+    }
+    
+    .desc{
+        color:white;
+        margin-left:0rem;
+        top:25rem;
+        left:29rem;
+        width:17rem;
+        font-size:1.2rem
+    }
+    
+    
+    
+  }
+
